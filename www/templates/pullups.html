@@ -1,0 +1,28 @@
+<ion-view title="Pull Ups" ng-controller="PullupsCtrl as pullups">
+  <ion-content>
+
+    <ion-list>
+      <div class="item-image progression-header">
+        <img src="img/pullup-header.jpg">
+        <h2 class="progression-title">Pull Ups Progression</h2>
+      </div>
+      <ion-item ng-repeat="pullup in pullups.exercise">
+
+        <div class="item item-divider">
+          <h2>{{pullup.name}}</h2>
+        </div>
+
+        <div class="item item-body">
+          <img class="full-image" ng-src="{{pullup.image}}">
+          <p>{{pullup.description}}</p>
+        </div>
+
+        <a class="item item-icon-left balanced" href="#">
+          <i class="icon ion-plus-circled"></i>
+          Add to my workout
+        </a>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

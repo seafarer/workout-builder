@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Vertical Pulls",
+    "id": 1,
+    "description": "Rest your hands on something about waist high. Lower yourself until your thighs are parallel with the floor, and come back up, supporting yourself with your hands. Try to keep your knees above your toes, but do not allow them to go out in front of the toes.",
+    "image": "img/placeholder.gif"
+  },
+  {
+    "name": "Vertical Pulls 2",
+    "id": 2,
+    "description": "Rest your hands on something about waist high. Lower yourself all the way down, and come back up, supporting yourself with your hands. Try to keep your knees above your toes, but do not allow them to go out in front of the toes.",
+    "image": "img/placeholder.gif"
+  },
+  {
+    "name": "Inverted Row, Legs Bent",
+    "id": 3,
+    "description": "Without supporting yourself, lower yourself until your thighs are parallel with the floor, and come back up, supporting yourself with your hands. Try to keep your knees above your toes, but do not allow them to go out in front of the toes.",
+    "image": "img/placeholder.gif"
+  }
+]

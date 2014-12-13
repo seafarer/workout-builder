@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Assisted Squat",
+    "description": "Rest your hands on something about waist high. Lower yourself until your thighs are parallel with the floor, and come back up, supporting yourself with your hands. Try to keep your knees above your toes, but do not allow them to go out in front of the toes.",
+    "image": "img/placeholder.gif"
+  },
+  {
+    "name": "Deep Assisted Squat",
+    "description": "Rest your hands on something about waist high. Lower yourself all the way down, and come back up, supporting yourself with your hands. Try to keep your knees above your toes, but do not allow them to go out in front of the toes.",
+    "image": "img/placeholder.gif"
+  },
+  {
+    "name": "Standard Squat",
+    "description": "Without supporting yourself, lower yourself until your thighs are parallel with the floor, and come back up, supporting yourself with your hands. Try to keep your knees above your toes, but do not allow them to go out in front of the toes.",
+    "image": "img/placeholder.gif"
+  }
+]

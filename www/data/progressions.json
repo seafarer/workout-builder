@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Squats",
+    "id": 1,
+    "description": "Entire lower body",
+    "exercise": "squats",
+    "thumb": "img/squat_th.jpg"
+  },
+  {
+    "title": "Pull Ups",
+    "id": 2,
+    "description": "Lats, shoulders and arms",
+    "exercise": "pullups",
+    "thumb": "img/pullup_th.jpg"
+  },
+  {
+    "title": "Leg Raises",
+    "id": 3,
+    "description": "Build your core",
+    "exercise": "legraise",
+    "thumb": "img/leg-raise_th.jpg"
+  },
+  {
+    "title": "Hand Stand Push Ups",
+    "id": 4,
+    "description": "Shoulders, back and triceps",
+    "exercise": "hspu",
+    "thumb": "img/hspu_th.jpg"
+  },
+  {
+    "title": "Rows",
+    "id": 5,
+    "description": "Entire upper body",
+    "exercise": "rows",
+    "thumb": "img/inverted-row_th.jpg"
+  },
+  {
+    "title": "Push Ups",
+    "id": 6,
+    "description": "Chest, back and core",
+    "exercise": "pushups",
+    "thumb": "img/pushup_th.jpg"
+  }
+]

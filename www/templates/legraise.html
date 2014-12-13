@@ -1,0 +1,28 @@
+<ion-view title="Leg Raises" ng-controller="LegraiseCtrl as lr">
+  <ion-content>
+
+    <ion-list>
+      <div class="item-image progression-header">
+        <img src="img/lr-header.jpg">
+        <h2 class="progression-title">Leg Raise Progression</h2>
+      </div>
+      <ion-item ng-repeat="lr in lr.exercise">
+
+        <div class="item item-divider">
+          <h2>{{lr.name}}</h2>
+        </div>
+
+        <div class="item item-body">
+          <img class="full-image" ng-src="{{lr.image}}">
+          <p>{{lr.description}}</p>
+        </div>
+
+        <a class="item item-icon-left balanced" href="#">
+          <i class="icon ion-plus-circled"></i>
+          Add to my workout
+        </a>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

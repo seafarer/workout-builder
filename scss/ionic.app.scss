@@ -1,0 +1,106 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors: */
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #2CA840 !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+
+@font-face {
+  font-family: 'bitter';
+  src: url('../fonts/bitter/bitter-bolditalic.eot');
+  src: url('../fonts/bitter/bitter-bolditalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/bitter/bitter-bolditalic.woff') format('woff'),
+  url('../fonts/bitter/bitter-bolditalic.ttf') format('truetype'),
+  url('../fonts/bitter/bitter-bolditalic.svg#bitter') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'bitter';
+  src: url('../fonts/bitter/bitter-bold.eot');
+  src: url('../fonts/bitter/bitter-bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/bitter/bitter-bold.woff') format('woff'),
+  url('../fonts/bitter/bitter-bold.ttf') format('truetype'),
+  url('../fonts/bitter/bitter-bold.svg#bitter') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bitter';
+  src: url('../fonts/bitter/bitter-italic.eot');
+  src: url('../fonts/bitter/bitter-italic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/bitter/bitter-italic.woff') format('woff'),
+  url('../fonts/bitter/bitter-italic.ttf') format('truetype'),
+  url('../fonts/bitter/bitter-italic.svg#bitter') format('svg');
+  font-weight: normal;
+  font-style: italic;
+
+}
+
+@font-face {
+  font-family: 'bitter';
+  src: url('../fonts/bitter/bitter-regular.eot');
+  src: url('../fonts/bitter/bitter-regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/bitter/bitter-regular.woff') format('woff'),
+  url('../fonts/bitter/bitter-regular.ttf') format('truetype'),
+  url('../fonts/bitter/bitter-regular.svg#bitter') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.progression-header {
+  position: relative;
+}
+
+.progression-title {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  margin: auto;
+  display: block;
+  height: 100px;
+  font-family: 'bitter';
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1.1;
+  color: #fff;
+//  text-shadow: 0 0 3px rgba(black, 0.9);
+}
+
+.scroll-content {
+  top: 44px;
+}
+
+.item-divider {
+  background: $positive;
+
+  h2 {
+    color: $light;
+  }
+}
+
+.list {
+  padding-top: 0;
+}

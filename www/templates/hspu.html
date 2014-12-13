@@ -1,0 +1,28 @@
+<ion-view title="Hand Stand Push Ups" ng-controller="HspuCtrl as hspu">
+  <ion-content>
+
+    <ion-list>
+      <div class="item-image progression-header">
+        <img src="img/hspu-header.jpg">
+        <h2 class="progression-title">Hand Stand Push Up Progression</h2>
+      </div>
+      <ion-item ng-repeat="hspu in hspu.exercise">
+
+        <div class="item item-divider">
+          <h2>{{hspu.name}}</h2>
+        </div>
+
+        <div class="item item-body">
+          <img class="full-image" ng-src="{{hspu.image}}">
+          <p>{{hspu.description}}</p>
+        </div>
+
+        <a class="item item-icon-left balanced" href="#">
+          <i class="icon ion-plus-circled"></i>
+          Add to my workout
+        </a>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

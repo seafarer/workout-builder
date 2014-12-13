@@ -1,0 +1,21 @@
+<ion-view title="Progression" ng-controller="ProgressionCtrl as progression">
+  <ion-content>
+
+    <ion-list>
+      <h2 class="title">Progressions</h2>
+
+      <ion-item ng-repeat="exercise in progression.exercise" >
+
+          <div class="item item-divider">
+            <h2>{{exercise.name}}</h2>
+          </div>
+
+          <div class="item item-body">
+            <img class="full-image" ng-src="{{exercise.image}}">
+            <p>{{exercise.description}}</p>
+          </div>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

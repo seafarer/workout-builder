@@ -1,0 +1,24 @@
+<ion-view title="Progression" ng-controller="SquatsCtrl as squat">
+  <ion-content>
+
+
+    <ion-list>
+      <div class="progression-header">
+        <img src="img/squat-header.jpg">
+        <h2 class="title">Squat Progressions</h2>
+      </div>
+      <ion-item ng-repeat="squat in squat.exercise" >
+
+          <div class="item item-divider">
+            <h2>{{squat.name}}</h2>
+          </div>
+
+          <div class="item item-body">
+            <img class="full-image" ng-src="{{exercise.image}}">
+            <p>{{squat.description}}</p>
+          </div>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
